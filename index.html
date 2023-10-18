@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+    <title>Practica Interface</title>
+    <style>
+        .fondo {
+            background-color: #e95761
+        }
+        .tarjeta {
+            background-color: black;
+        }
+        .letras{
+            color:#E95793;
+        }
+    </style>
+</head>
+
+<body class="fondo">
+    <div class="container-fluid p-5 text-white text-center bg-black">
+        <h1>Sonido</h1>
+    </div>
+    <div class="text-center">
+        <audio  class="m-2" src="./sonido/navidad.mp3" controls >
+        </audio>
+        <div class="container-fluid p-5 text-white text-center bg-black">
+            <h1> Video</h1>
+        </div>
+        </div><br>
+        <div class="text-center m-4">
+            <video class="img-fluid">
+            <source src="./videos/navidad.mp4" type="video/mp4">
+            </video>
+        </div>
+        <div>
+        <div class="container-fluid p-5 text-white text-center bg-black">
+            <h1>Imagenes</h1>
+            
+        </div>
+        <div class="container text-center d-flex justify-content-center">
+        <div class="row justify-content-center">
+            <div class="col-12 col-md-4 text-center my-5 mx-auto">
+            <div class="card tarjeta img-fluid">
+                <img src="./img/bola.jpg" class="card-img-top" alt="bola">
+                <div class="card-body">
+                  <p class="card-text letras text-center"><strong class="text-light">Bolas de Navidad:</strong> Pequeñas esferas que hacen que los árboles de Navidad brillen con encanto en la festividad.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-md-4 text-center my-5 mx-auto">
+          <div class="card tarjeta img-fluid">
+            <img src="./img/galleta.jpg" class="card-img-top" alt="galleta">
+            <div class="card-body">
+              <p class="card-text letras text-center"><strong class="text-light">Galletas de Jengibre:</strong> Dulces obras maestras con sabor a Navidad, que se hornean y decoran con amor y creatividad.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-4 text-center my-5 mx-auto">
+          <div class="card tarjeta img-fluid">
+            <img src="./img/regalo.jpg" class="card-img-top" alt="regalo">
+            <div class="card-body">
+              <p class="card-text letras text-center"><strong class="text-light">Regalos:</strong> Pequeñas cajas llenas de amor y sorpresas, que hacen que la Navidad sea aún más especial cada año.</p>
+            </div>
+          </div>
+        </div>
+        </div>
+    </div>
+    </div>
+</body>
+
+</html>
